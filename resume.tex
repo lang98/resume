@@ -1,0 +1,253 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+      {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Ryan Qin} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 647-970-8858~ \href{l29qin@uwaterloo.ca}{\raisebox{-0.2\height}\faEnvelope\  \underline{l29qin@uwaterloo.ca}} ~ 
+    \href{https://www.linkedin.com/in/ryan-qin-4b8157130}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+    \href{https://github.com/lang98}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{Sep. 2016 -- May 2021}
+      {Bachelor of Applied Science in Computer Engineering, option in Artificial Intelligence}{Waterloo, ON}
+  \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Languages}{: JavaScript, TypeScript, Python, Java, Ruby, Rust, Kotlin, Swift, Dart, Go} \\
+      \textbf{Developer Tools}{: React Native, React, Node.js, Vue.js, Ruby on Rails, GraphQL, Flutter, Mobile Development} \\
+      \textbf{Certificate}{: AWS Certified Solution Architect – Associate} \\
+    }}
+  \end{itemize}
+\vspace{-16pt}
+
+%------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     \begin{multicols}{4}
+%         \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%             \item\small Data Structures
+%             \item Software Methodology
+%             \item Algorithms Analysis
+%             \item Database Management
+%             \item Artificial Intelligence
+%             \item Internet Technology
+%             \item Systems Programming
+%             \item Computer Architecture
+%         \end{itemize}
+%     \end{multicols}
+%     \vspace*{2.0\multicolsep}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Cisco Meraki}{September 2020 -- Now}
+      {Software Engineer (Intern to Fulltime)}{Remote}
+      \resumeItemListStart
+        \resumeItem{Building customer-facing features for Meraki Dashboard end-to-end with Ruby on Rails and Postgres SQL.}
+        \resumeItem{Building out the camera vision portal as an enhanced user experience alternative to Meraki Dashboard; built with React, Redux and other state-of-the-art tooling.}
+        \resumeItem{Expanding  documentation on internal and public-facing APIs.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {TobyX (Startup)}{January 2018 -- July 2020}
+      {CTO, Technical Lead}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{Lead the development of a museum exhibition app built with GraphQL and MongoDB; a social network app involving friending and posts; built with React Native + Redux, Express + TypeORM.}
+        \resumeItem{Hosted weekly development scrum meetings and assign tickets to team members strategically.}
+        \resumeItem{Gained practical experience with AWS while architecting the application with services such as S3, EC2, RDS and ELB.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Splunk}{September 2019 -- December 2019}
+      {Frontend Developer Intern}{San Jose, CA}
+      \resumeItemListStart
+        \resumeItem{Implemented a CLI feature for Splunk Phantom, which provides hint-suggestion and auto-completion when typing in slash-commands; well received in the Phantom team demo and released to production.}
+        \resumeItem{Wrote unit tests with Jest and feature tests with Cypress.io which can be integrated with Gitlab CICD.}
+        \resumeItem{Actively seeking for improvement to achieve highest code quality possible, clearly documented projects using Confluence and JS docstring.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Zynga}{January 2019 -- April 2019}
+      {Mobile Game Developer Intern}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Migrated the Words with Friends mobile game to React Native +  MobX and Inversify.}
+        \resumeItem{Created custom bridge functions in Java and Objective-C, and refactored native code to avoid code duplication.}
+        \resumeItem{Researched and worked on features involving third-party SDKs such as Facebook and Branch referral system.}
+        \resumeItem{Gained solid understanding of Android development frameworks such as Dagger and RxJava, as well as iOS development with Objective-C and Swift.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \vspace{-5pt}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Chat App} $|$ \emph{Vue, GraphQL}}{January 2020}
+      \resumeItemListStart
+        \resumeItem{Utilized GraphQL’s subscription to achieve real-time messaging functionality.}
+        \resumeItem{Frontend application is built with Vue Apollo, Vuex and Vue Router, also written in TypeScript to allow better maintainability.}
+      \resumeItemListEnd
+      \vspace{-13pt}
+
+    \resumeProjectHeading
+      {\textbf{Todo App} $|$ \emph{Flutter, Android Studio}}{November 2020}
+      \resumeItemListStart
+        \resumeItem{Explore the possiblity of using Flutter to build cross-platform application in an efficient manner.}
+        \resumeItem{Used the Flutter’s ChangeNotifier provider API to achieve reactive state management.}
+      \resumeItemListEnd
+      \vspace{-13pt}
+
+    \resumeProjectHeading
+      {\textbf{Sudoku solver} $|$ \emph{Rust}}{February 2021}
+      \resumeItemListStart
+        \resumeItem{Implemented a multi-threading brute-force Sudoku solver to improve the speed.}
+        \resumeItem{The result is checked against an online API to ensure the correctness of the algorithm.}
+      \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+%                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+%                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+%             \resumeItemListEnd
+        
+%     \resumeSubHeadingListEnd
+
+
+\end{document}
