@@ -138,8 +138,8 @@
 \section{Technical Skills}
   \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-      \textbf{Languages}{: JavaScript, TypeScript, Python, Java, Ruby, Rust, Kotlin, Swift, Dart, Go} \\
-      \textbf{Developer Tools}{: React Native, React, Node.js, Vue.js, Ruby on Rails, GraphQL, Flutter, Mobile Development} \\
+      \textbf{Languages}{: JavaScript, TypeScript, Ruby, Python, Java, Rust, C/C++, Go, Kotlin, Swift, Dart} \\
+      \textbf{Developer Tools}{: React, Ruby on Rails, CI/CD, Node, Docker, K8s, GraphQL, Database, Mobile Development} \\
       \textbf{Certificate}{: AWS Certified Solution Architect – Associate} \\
     }}
   \end{itemize}
@@ -168,20 +168,21 @@
 
     \resumeSubheading
       {Cisco Meraki}{September 2020 -- Now}
-      {Software Engineer (Intern to Fulltime)}{Remote}
+      {Software Engineer}{Remote}
       \resumeItemListStart
-        \resumeItem{Building customer-facing features for Meraki Dashboard end-to-end with Ruby on Rails and Postgres SQL.}
-        \resumeItem{Building out the camera vision portal as an enhanced user experience alternative to Meraki Dashboard; built with React, Redux and other state-of-the-art tooling.}
-        \resumeItem{Expanding  documentation on internal and public-facing APIs.}
+        \resumeItem{Main developer of the Meraki MV \href{meraki.vision}{\underline{meraki.vision}} app built with React, Redux, Ruby on Rails, used by millons of Meraki customers.}
+        \resumeItem{Built the frontend video streaming component using HLS, Three.js; improved the streaming performance by tweaking HLS configuration according to the type of camera hardware.}
+        \resumeItem{Created custom fork of a popular time picker and add ability to choose seconds, 24/12 hour mode and integrate that to the Meraki Vision app.}
+        \resumeItem{Experience configuring Gitlab CI/CD, Webpack, K8s to meet the project's incremental needs as it scales from 0 to 100. }
       \resumeItemListEnd
 
     \resumeSubheading
-      {TobyX (Startup)}{January 2018 -- July 2020}
+      {TobyX}{January 2018 -- July 2020}
       {CTO, Technical Lead}{Waterloo, ON}
       \resumeItemListStart
-        \resumeItem{Lead the development of a museum exhibition app built with GraphQL and MongoDB; a social network app involving friending and posts; built with React Native + Redux, Express + TypeORM.}
+        \resumeItem{Lead the development of a museum exhibition app built with GraphQL and MongoDB; a social network app involving friending and posts; built with React Native + Redux, Express.js + TypeORM.}
         \resumeItem{Hosted weekly development scrum meetings and assign tickets to team members strategically.}
-        \resumeItem{Gained practical experience with AWS while architecting the application with services such as S3, EC2, RDS and ELB.}
+        \resumeItem{Configured application hosting with AWS using services such as S3, EC2, RDS and loader balencer, ensured application availability accross multiple regions.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -189,17 +190,16 @@
       {Frontend Developer Intern}{San Jose, CA}
       \resumeItemListStart
         \resumeItem{Implemented a CLI feature for Splunk Phantom, which provides hint-suggestion and auto-completion when typing in slash-commands; well received in the Phantom team demo and released to production.}
-        \resumeItem{Wrote unit tests with Jest and feature tests with Cypress.io which can be integrated with Gitlab CICD.}
-        \resumeItem{Actively seeking for improvement to achieve highest code quality possible, clearly documented projects using Confluence and JS docstring.}
+        \resumeItem{Wrote unit tests with Jest and feature tests with Cypress.io and help integrating them with Gitlab CI/CD.}
+        \resumeItem{Actively seeking for improvement to achieve highest code quality possible, clearly documented using Confluence and JS docstring.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Zynga}{January 2019 -- April 2019}
       {Mobile Game Developer Intern}{Toronto, ON}
       \resumeItemListStart
-        \resumeItem{Migrated the Words with Friends mobile game to React Native +  MobX and Inversify.}
-        \resumeItem{Created custom bridge functions in Java and Objective-C, and refactored native code to avoid code duplication.}
-        \resumeItem{Researched and worked on features involving third-party SDKs such as Facebook and Branch referral system.}
+        \resumeItem{Migrated the Words with Friends mobile game to React Native +  MobX and Inversify. Created custom bridge functions in Java and Objective-C, and refactored native code to avoid code duplication.}
+        \resumeItem{Researched and worked on features involving third-party SDKs such as Facebook and Branch referral system to help increase user retention.}
         \resumeItem{Gained solid understanding of Android development frameworks such as Dagger and RxJava, as well as iOS development with Objective-C and Swift.}
       \resumeItemListEnd
 
@@ -219,17 +219,9 @@
       \vspace{-13pt}
 
     \resumeProjectHeading
-      {\textbf{Todo App} $|$ \emph{Flutter, Android Studio}}{November 2020}
-      \resumeItemListStart
-        \resumeItem{Explore the possiblity of using Flutter to build cross-platform application in an efficient manner.}
-        \resumeItem{Used the Flutter’s ChangeNotifier provider API to achieve reactive state management.}
-      \resumeItemListEnd
-      \vspace{-13pt}
-
-    \resumeProjectHeading
       {\textbf{Sudoku solver} $|$ \emph{Rust}}{February 2021}
       \resumeItemListStart
-        \resumeItem{Implemented a multi-threading brute-force Sudoku solver to improve the speed.}
+        \resumeItem{Implemented multi-threading on top of a brute-force Sudoku solver to improve the performance, using Rust Mutex and threads.}
         \resumeItem{The result is checked against an online API to ensure the correctness of the algorithm.}
       \resumeItemListEnd
 
